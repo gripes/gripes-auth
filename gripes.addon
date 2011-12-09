@@ -1,0 +1,12 @@
+filters {
+	StripesFilter {
+		params = [
+			"SecurityManager.Class":"net.sf.gripes.security.GripesSecurityManager",
+			"Extension.Packages":"+org.stripesstuff.plugin.security"
+		]
+	}
+}
+
+actions = [
+//	"net.sf.gripes.action.GripesLoginActionBean"
+]
